@@ -1,5 +1,18 @@
 group:
   - files:
+      - CLAUDE.md
+      - .swift-format
+      - SECURITY.md
+      - .github/pull_request_template.md
+      - source: .github/ISSUE_TEMPLATE/
+        dest: .github/ISSUE_TEMPLATE/
+      - .github/workflows/pr.yml
+      - .github/workflows/scorecard.yml
+    repos: |
+      minegene-labs/plainfile
+      minegene-labs/reelmark
+      minegene-labs/test-app
+  - files:
       - SECURITY.md
       - .github/pull_request_template.md
       - source: .github/ISSUE_TEMPLATE/

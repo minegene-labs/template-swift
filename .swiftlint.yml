@@ -1,5 +1,0 @@
-excluded:
-  - build
-  - Core/.build
-disabled_rules:
-  - trailing_comma
